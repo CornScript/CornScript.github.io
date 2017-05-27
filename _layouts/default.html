@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">About</a></li>
+		        	<li><a href="/about">Projects</a></li>
+	        		<li><a href="/cv">Blog</a></li>
+	        		<li><a href="/blog">Subscribe</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+
+            <!-- The tags below in curly braces stand for liquid content in Jekyll parlance. -->
+			{{ content }}
+
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:SpaghettiThots@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/SpaghettiThots">github.com/SpaghettiThots</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
