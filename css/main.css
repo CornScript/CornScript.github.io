@@ -43,6 +43,6 @@ ul.posts li {
     list-style: none;
 }
 
-.post{
+div.post{
     font-family: 'Roboto Slab';
 }
