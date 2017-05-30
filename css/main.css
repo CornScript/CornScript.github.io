@@ -14,14 +14,17 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: DodgerBlue;
 }
 a:hover {
     text-decoration: underline;
+    color: #E30074;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 2.5em;
+    font-family: 'Roboto Slab', 'Helvetica', 'Times New Roman', Serif;
+    font-weight: 400;
+    color: #E30074;
 }
 p {
     font-size: 1.5em;
@@ -32,17 +35,29 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
 ul.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
-    font-family: 'Roboto Slab';
 }
-
 ul.posts li {
-    list-style: none;
+    list-style: circle;
+    font-family: monospace;
 }
-
 div.post{
-    font-family: 'Roboto Slab';
+    font-family: Verdana;
+    opacity: 0.8;
+    text-align: justify;
+}
+p.meta{
+    font-family: monospace;
+    color: DodgerBlue;
+    margin: 0;
+}
+.blurb{
+    font-family: Verdana;
+    font-size: 0.7em;
+    text-align: justify;
+}
+#disciple{
+    font-style: italic;
 }

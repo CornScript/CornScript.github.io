@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Launching Learngineer.io"
+title: "Learning, Earning, and a Few Other Things"
 date: 2017-05-27
 ---
 
